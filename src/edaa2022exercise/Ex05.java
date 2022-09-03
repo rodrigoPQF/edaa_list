@@ -4,15 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ex05 {
-    /*
-     Implemente um array de escrita única de valores de um tipo numérico qualquer.
-      Um array de escrita única é um array cujos elementos só podem ser modificados uma única vez.
-       Para a implementação, devemos ter, para cada elemento do array, um valor booleano associado que diz se o elemento
-        pode ser modificado ou não. Faça um for que percorra esses arrays e na primeira vez, todos os elementos do array
-         poderão ser modificados, mas assim que um elemento for modificado pela primeira vez o seu valor booleano associado
-         será modificado de forma que da próxima vez que o elemento for modificado nada ocorrerá.
 
-     */
     public static void main(String[] args) {
         int[] values = new int[10];
         boolean[] valid = new boolean[10];

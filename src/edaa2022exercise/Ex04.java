@@ -5,10 +5,7 @@ import java.util.Scanner;
 
 public class Ex04 {
 
-    /*
-     Armazene em um vetor a quantidade de dinheiro que as 10 pessoas presas possuíam Este vetor deve ser preenchido pelo usuário.
 
-     */
     public static void main(String[] args) {
         int[] values = new int[4];
         Scanner valorInput = new Scanner(System.in);  // Create a Scanner object
